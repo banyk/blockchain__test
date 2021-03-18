@@ -30,7 +30,7 @@ window.addEventListener('DOMContentLoaded', () => {
 			link.addEventListener('click', event => {
 				event.preventDefault();
 				smoothScroll(link);
-				if (screen.width <= 992) {
+				if (screen.width <= 992 || document.documentElement.clientWidth <= 992) {
 					toggleMenu();
 				}
 			});
