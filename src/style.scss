@@ -585,6 +585,18 @@ body {
 		}
 	}
 
+	&__bg-img-sm {
+		position: absolute;
+		height: 120px;
+		width: 60px;
+		z-index: -5;
+		bottom: -80px;
+		right: 80px;
+		img {
+			max-height: 100%;
+		}
+	}
+
 	@media (max-width: 768px) {
 		&__title {
 			margin-bottom: 35px;
